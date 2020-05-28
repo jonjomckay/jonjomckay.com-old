@@ -1,2 +1,153 @@
-/*! normalize.css v2.0.1 | MIT License | git.io/normalize */nav,section{display:block}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}a:focus{outline:dotted thin}a:active,a:hover{outline:0}strong{font-weight:700}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
-body{background-image:url(../img/bg.7a3ffa64.jpg);background-repeat:no-repeat;background-color:#e24228;background-size:cover;background-position:center;font-family:Raleway,Arial,sans-serif;color:#fff}a,a:hover,a:link,a:visited{color:inherit;text-decoration:none;font-weight:400}#intro #greeting{text-shadow:0 0 10px #2c2c2c}#intro-wrapper{display:table;margin:0 auto}#intro-wrapper #greeting-wrapper{display:table-cell;vertical-align:middle}#greeting{margin:0 auto;text-align:center;border-top:8px #fff solid;border-bottom:8px #fff solid;padding:50px 0}#greeting .name{line-height:1em;font-size:7vw}#greeting .hello{font-weight:700;color:#e24228}#greeting .tagline{display:block;line-height:1.6em;font-size:2.3vw}#links{background:#fff;color:#e24228;font-size:1em;width:100%;text-align:center;position:fixed;top:0;left:0}#links ul{list-style:none;padding-left:0;margin:.7em 0}#links ul li{display:inline;padding:0 15px}@media only screen and (max-width:767px){#greeting{width:100%}#greeting .name{font-size:3.9em}#greeting .tagline{margin:15px 0 0;font-size:1.4em}}@media only screen and (min-width:480px) and (max-width:767px){#greeting{width:100%;padding:20px 0}#greeting .name{font-size:3.9em}#greeting .tagline{margin:15px 0 0;font-size:1.29em}}@media only screen and (min-width:768px){#greeting{width:100%}#greeting .name{font-size:7vw}#greeting .tagline{font-size:2.3vw}}
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+nav, section {
+    display: block
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+a:focus {
+    outline: dotted thin
+}
+
+a:active, a:hover {
+    outline: 0
+}
+
+strong {
+    font-weight: 700
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+body {
+    background-image: url(../img/bg.7a3ffa64.jpg);
+    background-repeat: no-repeat;
+    background-color: #e24228;
+    background-size: cover;
+    background-position: center;
+    font-family: Raleway, Arial, sans-serif;
+    color: #fff;
+    height: 100vh;
+}
+
+a, a:hover, a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 400
+}
+
+#intro {
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+#intro #greeting {
+    text-shadow: 0 0 10px #2c2c2c
+}
+
+#intro-wrapper {
+    margin: 0 auto
+}
+
+#greeting {
+    margin: 0 auto;
+    text-align: center;
+    border-top: 8px #fff solid;
+    border-bottom: 8px #fff solid;
+    padding: 50px 0
+}
+
+#greeting .name {
+    line-height: 1em;
+    font-size: 7vw
+}
+
+#greeting .hello {
+    font-weight: 700;
+    color: #e24228
+}
+
+#greeting .tagline {
+    display: block;
+    line-height: 1.6em;
+    font-size: 2.3vw
+}
+
+#links {
+    background: #fff;
+    color: #e24228;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+#links ul {
+    list-style: none;
+    padding-left: 0;
+    margin: .7em 0
+}
+
+#links ul li {
+    display: inline;
+    padding: 0 15px
+}
+
+@media only screen and (max-width: 767px) {
+    #greeting {
+        width: 100%
+    }
+
+    #greeting .name {
+        font-size: 3.9em
+    }
+
+    #greeting .tagline {
+        margin: 15px 0 0;
+        font-size: 1.4em
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #greeting {
+        width: 100%;
+        padding: 20px 0
+    }
+
+    #greeting .name {
+        font-size: 3.9em
+    }
+
+    #greeting .tagline {
+        margin: 15px 0 0;
+        font-size: 1.29em
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #greeting {
+        width: 100%
+    }
+
+    #greeting .name {
+        font-size: 7vw
+    }
+
+    #greeting .tagline {
+        font-size: 2.3vw
+    }
+}
